@@ -20,7 +20,7 @@ describe("QueryProcessor", () => {
     test("should return Andrew ID", () => {
         const query = "What is your Andrew ID?";
         const response: string = QueryProcessor(query);
-        expect(response).toBe("My Andrew ID is dgao.");
+        expect(response).toBe("My Andrew ID is yuhang2.");
     });
 
     test("should handle case insensitivity and extra spaces", () => {
